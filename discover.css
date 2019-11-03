@@ -1,0 +1,133 @@
+.content-main-wrap .discover {
+	padding: 96px 24px;
+}
+
+.content-main-wrap .discover .container {
+	display: flex;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	width: 1140px;
+}
+
+.content-main-wrap .heading-tittle-top {
+	padding-bottom: 10px;
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+	font-weight:300;
+	letter-spacing:3px;
+	line-height:25.2px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.content-main-wrap .heading-color {
+	color: rgb(82, 82, 82);
+}
+
+.content-main-wrap .text-big {
+	padding-bottom: 20px;
+	margin-bottom: 12.8px;
+	font-family:"Playfair Display", serif;
+	font-size:45px;
+	font-weight:600;
+	letter-spacing:1px;
+	line-height:58.5px;
+	text-transform: capitalize;
+}
+
+.content-main-wrap .text-big-color {
+	color: rgb(59, 59, 59);
+}
+
+.content-main-wrap .text-small {
+	padding: 12px;
+	margin-bottom: 12px;
+	margin-top: -12px;
+	color: rgb(121, 121, 121);
+	font-family:"Open Sans", sans-serif;
+	font-size:16px;
+	font-weight:300;
+	line-height:28.8px;
+	text-align: center;
+	width: 772px;
+}
+
+.discover .container .services .column-item {
+	padding: 12px 16px 55.8px;
+	display: inline-block;
+	width: 400px;
+}
+
+.discover .container .services .column-item .image-hover {
+	height: 296px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-position: center;
+    cursor: pointer;
+    margin-bottom: 35px;
+    transition: all .4s ease-in-out;
+}
+
+.discover .container .services .column-item .image1 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/services/1.png');
+}
+
+.discover .container .services .column-item .image2 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/services/2.png');
+}
+
+.discover .container .services .column-item .image3 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/services/3.png');
+}
+
+.discover .container .services .column-item h3 {
+	font-family:"Playfair Display", serif;
+	font-size:23px;
+	font-weight:600;
+	letter-spacing:1px;
+	line-height:25.875px;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: rgb(59, 59, 59);
+	margin-bottom: 20.8px;
+	transition: all .3s ease;
+}
+
+.discover .container .services .column-item p {
+	color: rgb(146, 146, 146);
+	font-family:"Open Sans", sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:27px;
+}
+
+.discover .container .services .column-item h3:hover {
+	color: #d8ab74;
+}
+
+.discover .container .services .column-item .image-hover:hover {
+	background-size: 105% 105%;
+}
+
+.discover .container .button-click {
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Open Sans',sans-serif;
+	cursor: pointer;
+	font-size:13.5px;
+	font-weight:600;
+	height:45.8906px;
+	letter-spacing:2px;
+	line-height:20.25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d8ab74;
+	padding: 4.063px 32.75px;
+	transition: all .5s ease;
+}
+
+.discover .container .button-click:hover {
+	background-color: #363636;
+}
