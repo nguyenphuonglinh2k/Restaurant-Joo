@@ -1,0 +1,82 @@
+.content-main-wrap .book-table {
+	padding: 96px 24px 112px;
+}
+
+.content-main-wrap .book-table .container {
+	display: flex;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	width: 1140px;
+}
+
+.content-main-wrap .book-table .container .is-variable {
+	margin-bottom: 12px;
+	display: flex;
+	justify-content: center;
+}
+
+.content-main-wrap .book-table .container .is-variable .is-4 {
+	padding: 12px 16px;
+	position: relative;
+}
+
+.content-main-wrap .book-table .container .is-variable .is-4 select {
+	padding: 5px 0 5px 36px;
+	border: 1px solid rgb(234, 234, 234);
+	width: 368px;
+	height: 46px;
+	cursor: pointer;
+	color: rgb(121, 121, 121);
+	font-family:"Open Sans", sans-serif;
+	font-size:16px;
+	font-stretch:100%;
+	font-weight:400;
+	line-height:24px;
+	min-height:19.2px;
+}
+
+.content-main-wrap .book-table .container .is-variable .is-4 option {
+	padding: 0 2px 1px;
+}
+
+.content-main-wrap .book-table .container .is-variable .is-4 .icon-left {
+	position: absolute;
+	top: 24px;
+	left: 24px;
+	color: #dbdbdb;
+}
+
+.content-main-wrap .book-table .container .is-variable .is-4 .input {
+	width: 368px;
+	height: 46px;
+	border: 1px solid rgb(234, 234, 234);
+	cursor: pointer;
+	color: rgb(121, 121, 121);
+	padding: 4.625px 14px 4.625px 35.75px;
+}
+
+::placeholder {
+	color: #dbdbdb;
+ }
+
+ .content-main-wrap .book-table .container .button-click {
+ 	text-transform: uppercase;
+ 	color: white;
+ 	cursor: pointer;
+ 	font-family: 'Open Sans',sans-serif;
+ 	letter-spacing: 2px;
+ 	font-weight: 600;
+ 	background-color: #d8ab74;
+ 	transition: all .5s ease;
+ 	font-size:13.5px;
+ 	line-height:20.25px;
+ 	height:45.8906px;
+ 	padding: 4.063px 32.75px;
+ 	display: flex;
+ 	align-items: center;
+ }
+
+  .content-main-wrap .book-table .container .button-click:hover {
+  	background-color: #363636;
+  }
