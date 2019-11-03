@@ -1,0 +1,108 @@
+.content-main-wrap .lastest-news {
+	padding: 96px 24px 112px;
+	background: #fafafa url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/background/4.png') no-repeat center bottom;
+	
+}
+
+.content-main-wrap .lastest-news .container {
+	display: flex;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	width: 1140px;
+}
+
+.lastest-news .container .blog-list {
+	margin-top: 72px;
+	display: flex;
+}
+
+.lastest-news .container .blog-list .blog-post {
+	padding: 0;
+	width: 389px;
+	height: 595px;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-image {
+	background-size: 100% 100%;
+	background-position: center;
+	height: 298px;
+	width: 389px;
+	transition: background-size 0.4s ease-in-out;
+}
+
+.lastest-news .container .blog-list .blog-post .photo-1 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/blog/3.png');
+}
+
+.lastest-news .container .blog-list .blog-post .photo-2 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/blog/4.png');
+}
+
+.lastest-news .container .blog-list .blog-post .photo-3 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/blog/5.png');
+}
+
+.lastest-news .container .blog-list .blog-post .blog-image:hover {
+	background-size: 105% 105%;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-header {
+	padding: 45px 40px 0;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-header p {
+	text-transform: uppercase;
+	font-family:"Open Sans", sans-serif;
+	font-size:11.8px;
+	height:22px;
+	letter-spacing:1.1px;
+	line-height:17.7px;
+	margin-bottom: 0;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-header .post-meta .color-first {
+	cursor: pointer;
+	color: #d8ab74;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-header .post-meta .color-second {
+	color: #797979;
+	transition: all 0.4s ease;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-header .entry-title {
+	color: rgb(59, 59, 59);
+	cursor: pointer;
+	font-family:"Playfair Display", serif;
+	font-size:21px;
+	font-weight:600;
+	letter-spacing:0.5px;
+	line-height:33.6px;
+	margin-bottom: 20.8px;
+	transition: all 0.4s ease;
+	text-transform: capitalize;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-content {
+	padding: 0 40px 40px;
+	background-color: white;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-content p {
+	color: rgb(146, 146, 146);
+	margin-bottom: 22px;
+	font-family:"Open Sans", sans-serif;
+	font-size:15px;
+	font-weight:400px;
+	line-height:27px;
+	margin-bottom:22px;
+}
+
+.lastest-news .container .blog-list .blog-post .color-hover:hover {
+	color: #d8ab74;
+}
+
+.lastest-news .container .blog-list .blog-post .blog-background {
+	background-color: white;
+}
