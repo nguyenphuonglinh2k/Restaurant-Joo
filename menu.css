@@ -1,0 +1,151 @@
+.content-main-wrap .menu {
+	padding: 96px 24px;
+}
+
+.content-main-wrap .menu .container {
+	display: flex;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	width: 1140px;
+}
+
+.menu .container .tabs-list .tabs-centerd {
+	width: 1170px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu .container .tabs-list .tabs-centerd .is-centerd {
+	padding: 11.6px 2.9px;
+	margin: 0 1.6em;
+	color: rgb(59, 59, 59);
+	cursor:pointer;
+	font-family:"Open Sans", sans-serif;
+	text-transform: uppercase;
+	font-size:14.5px;
+	font-weight:600;
+	letter-spacing:3px;
+	line-height:21.75px;
+	transition: all .3s ease;
+	border-bottom: 2px solid white;
+}
+
+.menu .container .tabs-list .tabs-centerd .is-active {
+	border-bottom: 2px solid #d8ab74;
+}
+
+.menu .container .tabs-list .tabs-centerd .is-centerd:hover {
+	border-color: #d8ab74;
+}
+
+.menu .container .tabs-content {
+	margin-top: 72px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto auto auto;
+}
+
+.menu .container .tabs-content .tabs-content-item {
+	padding: 27px 32px;
+	width: 617px;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-left {
+	margin-right: 19.2px;
+	width: 81px;
+	height: 82px;
+	background-size: cover;
+	background-position: center;
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-1 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/1.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-2 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/2.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-3 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/3.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-4 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/4.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-5 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/1.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-6 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/2.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-7 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/3.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .photo-8 {
+	background-image: url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/menu/4.png');
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content {
+	width: 452px;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content .menu-title {
+	position: relative;
+	height: 40px;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content h3 {
+	font-family:"Playfair Display", serif;
+	font-size:23px;
+	font-weight:600;
+	letter-spacing:1px;
+	line-height:25.875px;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: rgb(59, 59, 59);
+	transition: all .3s ease;
+	display: inline-block;
+	margin-bottom: 6.9px;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content h3:hover {
+	color: #d8ab74;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content .minus {
+	color: rgb(216, 216, 216);
+	font-size:16px;
+	font-weight:400;
+	height:1px;
+	line-height:20px;
+	position: absolute;
+	right: 80px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content .menu-price {
+	cursor: pointer;
+	color: rgb(82, 82, 82);
+	font-size:16px;
+	font-weight:600;
+	letter-spacing:2px;
+	line-height:20px;
+	position: absolute;
+	right: 0;
+}
+
+.menu .container .tabs-content .tabs-content-item .media-content .discrition {
+	color: rgb(150, 150, 150);
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+	font-weight:400;
+	line-height:25.2px;
+}
