@@ -1,0 +1,65 @@
+.content-main-wrap .navs-gallery {
+	width: 100%;
+	height: 0;
+	padding-bottom: 24%;	
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.content-main-wrap .navs-gallery img {
+	height: 100%;
+	width: auto;
+	transform: translateX(-15px);
+	transition: all 0.3s ease;
+} 
+
+.content-main-wrap .navs-gallery .container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.content-main-wrap .navs-gallery .container .overlay {
+	color: white;
+	height: 100%;
+	width: 100%;
+	transform: translateX(-15px);
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+
+.content-main-wrap .navs-gallery .container .overlay h3 {
+	color: white;
+	font-family:"Playfair Display", serif;
+	font-size:22px;
+	font-weight:600;
+	line-height:33px;
+	z-index: 10;
+}
+
+.content-main-wrap .navs-gallery .container .overlay p {
+	color: white;
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:1.4px;
+	line-height:21px;
+	z-index: 10;
+	
+}
+
+.content-main-wrap .navs-gallery .container .overlay:hover {
+	opacity: 1;
+}
+
+.content-main-wrap .navs-gallery .container:hover img {
+	transform: scale(1.1);
+}
