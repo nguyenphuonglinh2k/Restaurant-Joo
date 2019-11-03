@@ -1,0 +1,100 @@
+.content-main-wrap .introduce {
+	padding: 128px 24px;
+	background: #fafafa url('https://themes.jozoor.com/html/joo/entertainment/01/assets/images/background/1.png') no-repeat left top;
+	background-size: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.content-main-wrap .introduce .container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	max-width: 1170px;
+    width: 1170px;
+    display: flex;	
+    justify-content: space-between;
+    position: relative;
+}
+
+.content-main-wrap .introduce .content-column {
+	padding: 12px 0;
+}
+
+.content-main-wrap .introduce .content-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 553px;
+}
+
+.content-main-wrap .introduce .content-left .heading-title-top {
+	color: rgb(82, 82, 82);
+	font-size:14px;
+	font-weight:300;
+	letter-spacing:3px;
+	line-height:25.2px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-family:"Open Sans", sans-serif;
+}
+
+.content-main-wrap .introduce .content-left .heading-title {
+	padding-bottom: 20px;
+	margin-bottom: 12.8px;
+	color: rgb(59, 59, 59);
+	font-family:"Playfair Display", serif;
+	font-size:45px;
+	font-weight:600;
+	letter-spacing:1px;
+	line-height:58.5px;
+	text-transform: capitalize;
+}
+
+.content-main-wrap .introduce .content-left p {
+	color: rgb(121, 121, 121);
+	font-size:	17px;
+	font-weight:300;
+	line-height:30.6px;
+	margin-bottom: 0;
+}
+
+.content-main-wrap .introduce .button-click {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	flex-shrink: 1;
+}
+
+.content-main-wrap .introduce .button-click i {
+	font-size: 80px;
+	color: rgb(227, 178, 118);
+	transition: all .4s ease-in-out;
+}
+
+.content-main-wrap .introduce .button-click i:hover {
+	color: black;
+}
+
+.content-main-wrap .introduce .button-click .text-nextToIcon {
+	padding: 0 16px;
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;	
+	font-weight:600;
+	letter-spacing:2px;
+	line-height:21px;
+	color: rgb(38, 38, 38);
+	text-transform: uppercase;
+}
+
+.content-main-wrap .introduce .container .image-item {
+	height: 600px;
+	width: 553px;
+}
+
+.content-main-wrap .introduce .container .introduce-logo {
+	position: absolute;
+	right: 35px;
+	bottom: -30px;
+}
