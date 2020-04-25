@@ -11,8 +11,8 @@
 }
 
 .footer-wrap .container .is-3 {
-	padding: 12px 16px;
-	width: 300px;
+	padding: 12px 30px;
+	width: 500px;
 	height: 287px;
 }
 
@@ -74,7 +74,7 @@
 .footer-wrap .container .is-3 .widget .form-input input {
 	border: 1px solid rgb(59, 59, 59);
 	padding: 4.625px 15px;
-	width: 209px;
+	width: 270px;
 	height: 46px;
 	background-color:rgba(0, 0, 0, 0);
 	display: inline-block;
@@ -188,7 +188,6 @@
 	cursor: pointer;
 	display: inline-block;
 	transition: transform .4s ease;
-	
 }
 
 .footer-wrap .container .is-3 .instafeed-footer .row {
@@ -219,13 +218,13 @@
 	background-image: url('https://scontent.cdninstagram.com/vp/23128145cbbb699d824f49d051644f95/5E44F7A1/t51.2885-15/e35/s150x150/57487896_1112360612279322_9077064914643657958_n.jpg?_nc_ht=scontent.cdninstagram.com');
 }
 
-.footer-wrap .container .is-3 .instafeed-footer .row .overlay {
+/* .footer-wrap .container .is-3 .instafeed-footer .row .overlay {
 	height: 73px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: rgba(0,0,0,.5);
-	opacity: 0;
+	opacity: 1;
 	transition: background-size .3s ease;
 }
 
@@ -258,4 +257,4 @@
 	height: 73px;
 	width: 73px;
 	margin: 0 14px 8px 0;
-}
+} */
