@@ -36,14 +36,3 @@ function scrollFunction() {
     } 
   }
 }
-
-// function scrollTopNav() {
-//   var prevScrollpos = window.pageYOffset;
-//   var currentScrollPos = window.pageYOffset;
-//     if (prevScrollpos > currentScrollPos) {
-//       document.getElementById("nav-menu-onscroll").style.top = "0";
-//     } else {
-//       document.getElementById("nav-menu-onscroll").style.top = "-70px";
-//     }
-//     prevScrollpos = currentScrollPos;
-// }
