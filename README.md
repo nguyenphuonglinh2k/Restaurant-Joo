@@ -9,4 +9,5 @@ Original website: https://themes.jozoor.com/html/joo/entertainment/01/
 3. install live-server
 
 ## Deployment
-Run live-server
+1. Clone this repo
+2. Run live-server
